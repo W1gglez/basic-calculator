@@ -1,0 +1,87 @@
+@font-face {
+  font-family: calcDisplay;
+  src: url(./fonts/digital-7-font/Digital7Mono-Yz9J4.ttf);
+  font-weight: 700;
+}
+
+body {
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.calculator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 750px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 24px;
+  background-color: whitesmoke;
+  filter: drop-shadow(2px 2px 9px #000000);
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  padding: 25px;
+  justify-content: flex-end;
+}
+
+.numbersPlus {
+  display: flex;
+  flex: 1;
+}
+
+.numbRow1,
+.numbRow2,
+.numbRow3,
+.numbRow4,
+.total {
+  display: flex;
+  flex: 1;
+  gap: 4px;
+  padding: 2px;
+}
+
+.operators {
+  display: flex;
+  flex: 0.2;
+  gap: 4px;
+  padding: 2px;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.button {
+  flex: 1;
+  font-size: 24px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.display {
+  margin: 25px;
+  padding-right: 12px;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: calcDisplay;
+  font-size: 96px;
+  color: rgb(36, 36, 36);
+  border-radius: 8px;
+  border: 1px groove black;
+  background-color: rgba(0, 183, 255, 0.116);
+}
