@@ -96,6 +96,8 @@ function calculate(){
         previousValue = ''
         }
     }
+    
+    currentValue = roundUp(currentValue)
 }
 
 function evaluatePair(){
@@ -105,4 +107,8 @@ function evaluatePair(){
         previousScreen = ''
         operator = ''
     }
+}
+
+function roundUp(num){
+    return Math.round(num * 1000) / 1000
 }
