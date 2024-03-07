@@ -95,3 +95,7 @@ body {
   padding: 0px 12px;
   font-size: 56px;
 }
+
+.zero{
+  flex: 2.2;
+}
