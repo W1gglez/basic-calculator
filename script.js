@@ -14,9 +14,7 @@ let currentValue = ''
 let previousScreen = ''
 
 numbers.forEach((number) => number.addEventListener('click', (e) => {
-    console.log(currentValue)
     handleNumber(e.target.textContent)
-    console.log(currentValue)
     current.textContent = currentValue
 }))
 
